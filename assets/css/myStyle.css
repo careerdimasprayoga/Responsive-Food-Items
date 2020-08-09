@@ -1,0 +1,67 @@
+body {
+    background-color: rgba(190, 195, 202, 0.3);
+}
+/* Delete up here */
+@font-face {
+    font-family: 'AirbnbMedium';
+    src: url('../font/AirbnbCerealMedium.ttf');
+}
+@font-face {
+    font-family: 'AirbnbBook';
+    src: url('../font/AirbnbCerealBook.ttf');
+}
+/* Public Class */
+.font-medium {
+    font-family: AirbnbMedium;
+}
+.font-book {
+    font-family: AirbnbBook;
+}
+.font-bold {
+    font-weight: bold;
+}
+.font-normal {
+    font-weight: none;
+}
+/* End Public Class */
+/* Header */
+.headerOne {
+    height: 70px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 10px grey;
+    z-index: 1;
+    border-right: #CECECE 1px solid;
+}
+.headerTwo {
+    height: 70px;
+    background-color: #FFFFFF;
+    box-shadow: 3px 1px 10px grey;
+    z-index: 1;
+    border-left: #CECECE 1px solid;
+}
+.headerBox {
+    height: 70px;
+}
+.headerBoxBrandPosition {
+    height: 30px;
+}
+.headerIcon {
+    width: 30px;
+    height: 30px;
+}
+.headerBrand {
+    font-family: AirbnbMedium;
+    font-size: 25px;
+}
+/* End Header */
+/* Sidemenu */
+.sideMenu {
+    width: 90px;
+    height: 1000px;
+    background-color: #FFFFFF;
+}
+.menuIcon {
+    width: 35px;
+    height: 35px;
+}
+/* End Sidemenu */
