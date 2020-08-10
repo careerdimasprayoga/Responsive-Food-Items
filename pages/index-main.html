@@ -12,182 +12,189 @@
 
     <div class="d-flex" id="wrapper">
       <!-- Sidemenu/Sidebar -->
-      <div class="sideMenu" id="sidebar-wrapper">
-        <div class="sidebar-heading">
-          <div class="row headerBox text-center align-items-center">
-            <div class="col-sm-12 headerBrand">
-              <a href="index-main.html" class="normalLink">
-                  Menu
-              </a>
+      <nav>
+        <div class="sideMenu" id="sidebar-wrapper">
+          <div class="sidebar-heading">
+            <div class="row headerBox text-center align-items-center">
+              <div class="col-sm-12 headerBrand">
+                <a href="index-main.html" class="normalLink">
+                    Menu
+                </a>
+            </div>
+            </div>
           </div>
+          <div class="list-group list-group-flush">
+            <div class="row menuIconBox align-items-center">
+              <div class="col-sm-12 text-center">
+                <a href="home-history.html">
+                  <img src="../assets/images/icons/fork.png" class="menuIcon">
+                </a>
+              </div>
+            </div>
+            <div class="row menuIconBox align-items-center">
+              <div class="col-sm-12 text-center">
+                <a href="home-history.html">
+                  <img src="../assets/images/icons/clipboard.png" class="menuIcon">
+                </a>
+              </div>
+            </div>
+            <div class="row menuIconBox align-items-center">
+              <div class="col-sm-12 text-center">
+                <a href="" data-toggle="modal" data-target="#exampleModal1">
+                  <img src="../assets/images/icons/add.png" class="menuIcon">
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="list-group list-group-flush">
-          <div class="row menuIconBox align-items-center">
-            <div class="col-sm-12 text-center">
-              <a href="home-history.html">
-                <img src="../assets/images/icons/fork.png" class="menuIcon">
-              </a>
-            </div>
-          </div>
-          <div class="row menuIconBox align-items-center">
-            <div class="col-sm-12 text-center">
-              <a href="home-history.html">
-                <img src="../assets/images/icons/clipboard.png" class="menuIcon">
-              </a>
-            </div>
-          </div>
-          <div class="row menuIconBox align-items-center">
-            <div class="col-sm-12 text-center">
-              <a href="" data-toggle="modal" data-target="#exampleModal1">
-                <img src="../assets/images/icons/add.png" class="menuIcon">
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+      </nav>
       <!-- Sidemenu/#sidebar-wrapper -->
       <!------------------------------- Start ------------------------------------>
       <!-- Page Content -->
       <div id="page-content-wrapper">
-        <div class="container-fluid">
-          <!-- Header -->
-          <div class="row">
-            <!-- Header Brand -->
-            <div class="col-sm-7 col-md-7 col-xl-8 headerOne">
-              <div class="row headerBox align-items-center">
-                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-1 col-2">
-                  <!-- <img src="../assets/images/icons/menu.png" class="headerIcon"> -->
-                  <button class="btn btn-custom" id="menu-toggle">
-                    <!-- Toggle Menu -->
-                    <img src="../assets/images/icons/menu.png" class="headerIcon">
-                  </button>
+        <header>
+          <div class="container-fluid">
+            <!-- Header -->
+            <div class="row">
+              <!-- Header Brand -->
+              <div class="col-sm-7 col-md-7 col-xl-8 headerOne">
+                <div class="row headerBox align-items-center">
+                  <div class="col-sm-3 col-md-3 col-lg-3 col-xl-1 col-2">
+                    <!-- <img src="../assets/images/icons/menu.png" class="headerIcon"> -->
+                    <button class="btn btn-custom" id="menu-toggle">
+                      <!-- Toggle Menu -->
+                      <img src="../assets/images/icons/menu.png" class="headerIcon">
+                    </button>
+                  </div>
+                  <div class="col-sm-6 col-md-7 col-lg-7 col-xl-10 col-8">
+                    <p class="headerBrand text-center headerBoxBrandPosition">Food Items</p>
+                  </div>
+                  <div class="col-sm-3 col-md-2 col-lg-2 col-xl-1 col-2">
+                    <img src="../assets/images/icons/find.png" class="headerIcon">
+                  </div>
                 </div>
-                <div class="col-sm-6 col-md-7 col-lg-7 col-xl-10 col-8">
-                  <p class="headerBrand text-center headerBoxBrandPosition">Food Items</p>
-                </div>
-                <div class="col-sm-3 col-md-2 col-lg-2 col-xl-1 col-2">
-                  <img src="../assets/images/icons/find.png" class="headerIcon">
+              </div>
+              <!-- Header Cart -->
+              <div class="col-sm-5 col-md-5 col-xl-4 headerTwo">
+                <div class="row headerBox align-items-center">
+                  <div class="col-sm-12">
+                    <p class="headerBrand headerBoxBrandPosition text-center">Cart <span class="cartSpan">0</span></p>
+                  </div>
                 </div>
               </div>
             </div>
-            <!-- Header Cart -->
-            <div class="col-sm-5 col-md-5 col-xl-4 headerTwo">
-              <div class="row headerBox align-items-center">
-                <div class="col-sm-12">
-                  <p class="headerBrand headerBoxBrandPosition text-center">Cart <span>0</span></p>
-                </div>
-              </div>
-            </div>
+            <!-- End Header -->
           </div>
-          <!-- End Header -->
-        </div>
-        <!-- SideMenu -->
-        <!-- End SideMenu -->
-
+          <!-- SideMenu -->
+          <!-- End SideMenu -->
+        </header>
         <!----------------------------- Main ------------------------------>
         <div class="container-fluid">
           <div class="row">
             <!-- Product -->
-            <div class="col-sm-7 col-xl-8">
-              <!-- card -->
-              <div class="row">
-                <div class="col-xl-4 col-lg-6 col-md-12" style="padding-top: 10px;">
-                  <div class="card" style="padding-top: 10px; background-color: transparent; border: none;">
-                    <img class="card-img-top productImage" src="../assets/images/product/black-forest.jpg" alt="Card image cap">
-                    <div class="productDescription">
-                      <p class="font-book" style="line-height: 15px;">Espresso</p>
-                      <p class="font-medium" style="line-height: 1px;">Rp. 10.000</p>
+            <!-- <section> -->
+              <div class="col-sm-7 col-xl-8">
+                <!-- card -->
+                <div class="row">
+                  <div class="col-xl-4 col-lg-6 col-md-12" style="padding-top: 10px;">
+                    <div class="card" style="padding-top: 10px; background-color: transparent; border: none;">
+                      <img class="card-img-top productImage" src="../assets/images/product/black-forest.jpg" alt="Card image cap">
+                      <div class="productDescription">
+                        <p class="font-book" style="line-height: 15px;">Espresso</p>
+                        <p class="font-medium" style="line-height: 1px;">Rp. 10.000</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-12" style="padding-top: 10px;">
+                    <div class="card" style="padding-top: 10px; background-color: transparent; border: none;">
+                      <img class="card-img-top productImage" src="../assets/images/product/cofeelate.jpg" alt="Card image cap">
+                      <div class="productDescription">
+                        <p class="font-book" style="line-height: 15px;">Cofee Latte</p>
+                        <p class="font-medium" style="line-height: 1px;">Rp. 15.000</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-12" style="padding-top: 10px;">
+                    <div class="card" style="padding-top: 10px; background-color: transparent; border: none;">
+                      <img class="card-img-top productImage" src="../assets/images/product/cappucino.jpg" alt="Card image cap">
+                      <div class="productDescription">
+                        <p class="font-book" style="line-height: 15px;">Cappucino</p>
+                        <p class="font-medium" style="line-height: 1px;">Rp. 5.000</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-12" style="padding-top: 10px;">
+                    <div class="card" style="padding-top: 10px; background-color: transparent; border: none;">
+                      <img class="card-img-top productImage" src="../assets/images/product/redvelvet.jpg" alt="Card image cap">
+                      <div class="productDescription">
+                        <p class="font-book" style="line-height: 15px;">Red Velvet Latte</p>
+                        <p class="font-medium" style="line-height: 1px;">Rp. 33.000</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-12" style="padding-top: 10px;">
+                    <div class="card" style="padding-top: 10px; background-color: transparent; border: none;">
+                      <img class="card-img-top productImage" src="../assets/images/product/chocorum.jpg" alt="Card image cap">
+                      <div class="productDescription">
+                        <p class="font-book" style="line-height: 15px;">Choco Rhum</p>
+                        <p class="font-medium" style="line-height: 1px;">Rp. 28.000</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-12" style="padding-top: 10px;">
+                    <div class="card" style="padding-top: 10px; background-color: transparent; border: none;">
+                      <img class="card-img-top productImage" src="../assets/images/product/black-forest.jpg" alt="Card image cap">
+                      <div class="productDescription">
+                        <p class="font-book" style="line-height: 15px;">Black Forest</p>
+                        <p class="font-medium" style="line-height: 1px;">Rp. 30.000</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-12" style="padding-top: 10px;">
+                    <div class="card" style="padding-top: 10px; background-color: transparent; border: none;">
+                      <img class="card-img-top productImage" src="../assets/images/product/chiken-katsu.jpg" alt="Card image cap">
+                      <div class="productDescription">
+                        <p class="font-book" style="line-height: 15px;">Chicken Katsu Dabu dabu</p>
+                        <p class="font-medium" style="line-height: 1px;">Rp. 60.000</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-12" style="padding-top: 10px;">
+                    <div class="card" style="padding-top: 10px; background-color: transparent; border: none;">
+                      <img class="card-img-top productImage" src="../assets/images/product/salmon-trufle.jpg" alt="Card image cap">
+                      <div class="productDescription">
+                        <p class="font-book" style="line-height: 15px;">Salmon Truffle Teriyaki</p>
+                        <p class="font-medium" style="line-height: 1px;">Rp. 60.000</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-12" style="padding-top: 10px;">
+                    <div class="card" style="padding-top: 10px; background-color: transparent; border: none;">
+                      <img class="card-img-top productImage" src="../assets/images/product/wienner.jpg" alt="Card image cap">
+                      <div class="productDescription">
+                        <p class="font-book" style="line-height: 15px;">Wiener Schitzel</p>
+                        <p class="font-medium" style="line-height: 1px;">Rp. 69.000</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-12" style="padding-top: 10px;">
-                  <div class="card" style="padding-top: 10px; background-color: transparent; border: none;">
-                    <img class="card-img-top productImage" src="../assets/images/product/cofeelate.jpg" alt="Card image cap">
-                    <div class="productDescription">
-                      <p class="font-book" style="line-height: 15px;">Cofee Latte</p>
-                      <p class="font-medium" style="line-height: 1px;">Rp. 15.000</p>
-                    </div>
+                <!-- end card -->
+              </div>
+              <!-- End Product -->
+            <!-- </section> -->
+            <!-- <aside> -->
+              <div class="col-sm-5 col-md-5 col-xl-4" style="background-color: #ffffff;">
+                <div class="row">
+                  <div class="col-sm-12 text-center">
+                    <img src="../assets/images/icons/Food-sidebar.png" class="cart-icon">
                   </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-12" style="padding-top: 10px;">
-                  <div class="card" style="padding-top: 10px; background-color: transparent; border: none;">
-                    <img class="card-img-top productImage" src="../assets/images/product/cappucino.jpg" alt="Card image cap">
-                    <div class="productDescription">
-                      <p class="font-book" style="line-height: 15px;">Cappucino</p>
-                      <p class="font-medium" style="line-height: 1px;">Rp. 5.000</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-12" style="padding-top: 10px;">
-                  <div class="card" style="padding-top: 10px; background-color: transparent; border: none;">
-                    <img class="card-img-top productImage" src="../assets/images/product/redvelvet.jpg" alt="Card image cap">
-                    <div class="productDescription">
-                      <p class="font-book" style="line-height: 15px;">Red Velvet Latte</p>
-                      <p class="font-medium" style="line-height: 1px;">Rp. 33.000</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-12" style="padding-top: 10px;">
-                  <div class="card" style="padding-top: 10px; background-color: transparent; border: none;">
-                    <img class="card-img-top productImage" src="../assets/images/product/chocorum.jpg" alt="Card image cap">
-                    <div class="productDescription">
-                      <p class="font-book" style="line-height: 15px;">Choco Rhum</p>
-                      <p class="font-medium" style="line-height: 1px;">Rp. 28.000</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-12" style="padding-top: 10px;">
-                  <div class="card" style="padding-top: 10px; background-color: transparent; border: none;">
-                    <img class="card-img-top productImage" src="../assets/images/product/black-forest.jpg" alt="Card image cap">
-                    <div class="productDescription">
-                      <p class="font-book" style="line-height: 15px;">Black Forest</p>
-                      <p class="font-medium" style="line-height: 1px;">Rp. 30.000</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-12" style="padding-top: 10px;">
-                  <div class="card" style="padding-top: 10px; background-color: transparent; border: none;">
-                    <img class="card-img-top productImage" src="../assets/images/product/chiken-katsu.jpg" alt="Card image cap">
-                    <div class="productDescription">
-                      <p class="font-book" style="line-height: 15px;">Chicken Katsu Dabu dabu</p>
-                      <p class="font-medium" style="line-height: 1px;">Rp. 60.000</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-12" style="padding-top: 10px;">
-                  <div class="card" style="padding-top: 10px; background-color: transparent; border: none;">
-                    <img class="card-img-top productImage" src="../assets/images/product/salmon-trufle.jpg" alt="Card image cap">
-                    <div class="productDescription">
-                      <p class="font-book" style="line-height: 15px;">Salmon Truffle Teriyaki</p>
-                      <p class="font-medium" style="line-height: 1px;">Rp. 60.000</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-12" style="padding-top: 10px;">
-                  <div class="card" style="padding-top: 10px; background-color: transparent; border: none;">
-                    <img class="card-img-top productImage" src="../assets/images/product/wienner.jpg" alt="Card image cap">
-                    <div class="productDescription">
-                      <p class="font-book" style="line-height: 15px;">Wiener Schitzel</p>
-                      <p class="font-medium" style="line-height: 1px;">Rp. 69.000</p>
-                    </div>
+                  <div class="col-sm-12 text-center">
+                    <p style="font-size: 25px; font-weight: bold; line-height: 10pt;">Your cart is empty</p>
+                    <p style="font-size: 15px; font-weight: bold;color: #CECECE;">Please add some items from the menu</p>
                   </div>
                 </div>
               </div>
-              <!-- end card -->
-            </div>
-            <!-- End Product -->
-            <div class="col-sm-5 col-md-5 col-xl-4" style="background-color: #ffffff;">
-              <div class="row">
-                <div class="col-sm-12 text-center">
-                  <img src="../assets/images/icons/Food-sidebar.png" class="cart-icon">
-                </div>
-                <div class="col-sm-12 text-center">
-                  <p style="font-size: 25px; font-weight: bold; line-height: 10pt;">Your cart is empty</p>
-                  <p style="font-size: 15px; font-weight: bold;color: #CECECE;">Please add some items from the menu</p>
-                </div>
-              </div>
-            </div>
+            <!-- </aside> -->
           </div>
         </div>
         <!-- End Body -->
